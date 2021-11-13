@@ -11,12 +11,12 @@ How to Run the Program
  *the 1st argument is the  logfile path 
  *the 2nd argument is boolean[true/false] which control the program to run the dummy test case or not
  
- **
+ ####  ---  ####
  When the program start , it will create a HSQLDB with the schema.sql
  then it will generate 2 dummy sample records to the DB with the data.sql
  and this logfile.txt will create 3 records to the DB
  
- Next step
+ ##  Next step  ##
  The program is running in the ServerLogThread which is design for running in multi-threading and handling large file,
  In order to do so, 
  1st : divide the gigabytes in to multiple files and assign to multiple ServerLogThread to process
