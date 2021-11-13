@@ -6,6 +6,8 @@ How to Run the Program
 4. copy the logfile.txt to the target folder: cp ./logfile.txt ./target
 5. change to target folder : cd target
 6. You can then run the java program: java -cp "credit-suisse-coding-assignment-0.0.1-SNAPSHOT.jar:dependency/*" com.creditsuisse.coding.assignment.Application ./logfile.txt false
+ 
+ 
  *the 1st argument is the  logfile path 
  *the 2nd argument is boolean[true/false] which control the program to run the dummy test case or not
  
